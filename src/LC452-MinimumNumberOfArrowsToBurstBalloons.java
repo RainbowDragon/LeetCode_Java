@@ -25,6 +25,11 @@ Explanation: The balloons can be burst by 2 arrows:
 - Shoot an arrow at x = 2, bursting the balloons [1,2] and [2,3].
 - Shoot an arrow at x = 4, bursting the balloons [3,4] and [4,5].
 
+Constraints:
+1 <= points.length <= 10^5
+points[i].length == 2
+-2^31 <= xstart < xend <= 2^31 - 1
+
 */
 
 class Solution {
