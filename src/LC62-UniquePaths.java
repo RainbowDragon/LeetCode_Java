@@ -27,6 +27,10 @@ Example 4:
 Input: m = 3, n = 3
 Output: 6
 
+Constraints:
+1 <= m, n <= 100
+It's guaranteed that the answer will be less than or equal to 2 * 109.
+
 */
 
 class Solution {
