@@ -27,7 +27,7 @@ class Solution {
         return count(nums, right) - count(nums, left-1);
     }
 
-    public int count(int[] nums, int bound) {
+    int count(int[] nums, int bound) {
 
         int result = 0;
         int current = 0;
