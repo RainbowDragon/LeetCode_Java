@@ -43,7 +43,7 @@ class Solution {
         return Math.max(max1, max2);
     }
 
-    public int robHelper(int[] nums, int start, int end) {
+    int robHelper(int[] nums, int start, int end) {
 
         int one = 0;
         int two = 0;
