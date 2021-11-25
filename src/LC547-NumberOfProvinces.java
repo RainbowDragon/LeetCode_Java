@@ -47,8 +47,8 @@ class Solution {
         return result;
     }
 
-    void dfs(int[][] M, boolean[] visited, int i)
-    {
+    void dfs(int[][] M, boolean[] visited, int i) {
+
         visited[i] = true;
 
         for (int j = 0; j < M.length; j++)
