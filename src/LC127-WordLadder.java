@@ -51,8 +51,8 @@ class Solution {
         return bfs(beginSet, endSet, dictionary, 1);
     }
 
-    int bfs(HashSet<String> beginSet, HashSet<String> endSet, HashSet<String> dictionary, int level)
-    {
+    int bfs(HashSet<String> beginSet, HashSet<String> endSet, HashSet<String> dictionary, int level) {
+
         if (beginSet.isEmpty()) {
             return 0;
         }
