@@ -20,7 +20,7 @@ Output: false
 
 Constraints:
 1 <= n <= 2000
-0 <= dislikes.length <= 104
+0 <= dislikes.length <= 10^4
 dislikes[i].length == 2
 1 <= dislikes[i][j] <= n
 ai < bi
